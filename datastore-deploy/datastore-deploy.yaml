@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: mywebapp
-          image: siddu009/datastore-deploy:v1.0
+          image: siddu009/datastore:v1.0
   replicas: 3
   selector:
     matchLabels:
